@@ -12,7 +12,8 @@
 		D459798C2D5141BB00C6D6EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45979832D5141BB00C6D6EA /* Preview Assets.xcassets */; };
 		D459798D2D5141BB00C6D6EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45979852D5141BB00C6D6EA /* Assets.xcassets */; };
 		D459798F2D51425600C6D6EA /* MadisonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D459798E2D51425600C6D6EA /* MadisonView.swift */; };
-		D45979912D51426600C6D6EA /* MeiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45979902D51426600C6D6EA /* MeiView.swift */; };
+		D45979912D51426600C6D6EA /* BubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45979902D51426600C6D6EA /* BubbleView.swift */; };
+		D45979942D51ABAF00C6D6EA /* BubbleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45979932D51ABAF00C6D6EA /* BubbleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +24,8 @@
 		D45979872D5141BB00C6D6EA /* Greetings.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Greetings.entitlements; sourceTree = "<group>"; };
 		D45979882D5141BB00C6D6EA /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		D459798E2D51425600C6D6EA /* MadisonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadisonView.swift; sourceTree = "<group>"; };
-		D45979902D51426600C6D6EA /* MeiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeiView.swift; sourceTree = "<group>"; };
+		D45979902D51426600C6D6EA /* BubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleView.swift; sourceTree = "<group>"; };
+		D45979932D51ABAF00C6D6EA /* BubbleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				D45979882D5141BB00C6D6EA /* GreetingsApp.swift */,
 				D45979862D5141BB00C6D6EA /* ContentView.swift */,
+				D45979932D51ABAF00C6D6EA /* BubbleModel.swift */,
 				D45979922D51426E00C6D6EA /* Views */,
 				D45979852D5141BB00C6D6EA /* Assets.xcassets */,
 				D45979872D5141BB00C6D6EA /* Greetings.entitlements */,
@@ -78,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				D459798E2D51425600C6D6EA /* MadisonView.swift */,
-				D45979902D51426600C6D6EA /* MeiView.swift */,
+				D45979902D51426600C6D6EA /* BubbleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,7 +161,8 @@
 			files = (
 				D459798A2D5141BB00C6D6EA /* ContentView.swift in Sources */,
 				D459798F2D51425600C6D6EA /* MadisonView.swift in Sources */,
-				D45979912D51426600C6D6EA /* MeiView.swift in Sources */,
+				D45979942D51ABAF00C6D6EA /* BubbleModel.swift in Sources */,
+				D45979912D51426600C6D6EA /* BubbleView.swift in Sources */,
 				D459798B2D5141BB00C6D6EA /* GreetingsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
